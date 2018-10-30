@@ -1,0 +1,154 @@
+.breadcrumb{
+    margin: 5px 0px!important;
+}
+.breadcrumb li a{
+    color: #28A745;
+}
+.cover-photo img{
+    width: 100%;
+}
+.contain{
+    width: 85%;
+    margin: auto;
+}
+#profphoto{
+    position: relative;
+}
+.mainprof{
+    position: relative;
+    bottom:100px;
+}
+.profdata #profphoto{
+    border: 2px solid white;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+.profdata h1{
+    text-align: center;
+    color: rgb(92, 91, 91);
+    margin-bottom: 20px;
+}
+.follow, .message{
+    width: 100%;
+    margin: 5px 0px;
+}
+.message{
+    border: 1px solid gray;
+    color: rgb(92, 91, 91);
+    position: relative;
+}
+.info h5{
+    border-bottom: 1px solid rgb(92, 91, 91);
+    color: rgb(92, 91, 91);
+    margin-top: 50px;
+    padding: 7px 0px;
+}
+.info p{
+    color: rgb(92, 91, 91);
+    font-size: 15px;
+}
+.social button{
+    display: block;
+    width: 40%;
+    margin-bottom: 10px;
+}
+.lentcont{
+    width: 100%!important;
+}
+.lent{
+    position: relative;
+    top: 20px;
+}
+
+.lentcont .nav-link{
+    margin-right: 3px;
+    margin-bottom: 30px;    
+    color: rgb(134, 133, 133);
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: rgb(238, 236, 236);
+    transition: 0.3s;
+}
+.event h5{
+    font-size: 0.95em;
+    color: rgb(92, 91, 91);
+    margin-bottom: 5px;
+}
+.event{
+    padding: 10px 0px;
+    border-bottom: 1px dashed rgb(134, 134, 134);
+}
+.event h5 span{
+    color: #28A745;
+    cursor: pointer;
+}
+.event .face{
+    width: 40px;
+}
+.event p {
+    font-size: 0.8em;
+    color: rgb(134, 134, 134);
+}
+.event #article{
+    border-left: 2px solid rgb(134, 134, 134);
+    padding-left: 10px;
+}
+.event .imagepost img{
+    float: left;
+    width: 48%;
+    margin-bottom: 20px;
+}
+.loader{
+    display: block!important;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(134, 134, 134);
+    color: rgb(97, 97, 97);
+}
+.loader i{
+    margin-right:5px;
+}
+.follower , .following{
+    margin-bottom: 20px;
+}
+.follower img, .following img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+.follower h5, .following h5{
+    display: inline-block!important;
+    font-size: 0.95em;
+    color: rgb(92, 91, 91);
+    margin-bottom: 2px;
+}
+.follower h5 span, .following h5 span{
+    color: #28A745;
+    cursor: pointer;    
+}
+.follower button, .following button{
+    width: 20%;
+    float: right;
+}
+.follower .nfb{
+    background-color: #28A745;
+    font-size: 0.9em;
+    color: white;
+}
+.follower .fb{
+    border: 1px solid gray;
+    font-size: 0.9em;
+}
+.follower .unf{
+    background-color: #d9534f!important;
+    font-size: 0.9em;
+}
+.follower p, .following p{
+    font-size: 0.9em;
+    color: rgb(92, 91, 91);
+}
+@media screen and (max-width: 540px) {
+    .follower button{width:40%}
+    .following button{width:40%}
+}
